@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Century Schoolbook, Georgia; 
+	font-size: 8px;
+	text-align: center;
+}
+
+#wrapper {
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.page {
+	margin-top: 2%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align:center;
+	line-height:1.5em;
+	font-family:'Andale Mono';
+	font-size:0.7em;"
+}
+
+img {
+	text-align:center;
+	margin-right:auto;
+	margin-left: auto;
+	padding: 0;
+	border: 0;
+}
+
+#wrapper a:active, #wrapper a:hover, #wrapper a:visited {
+	cursor: -webkit-zoom-in;
+	cursor: -moz-zoom-in;
+
+}
+
+/*#lightbox a:active, #lightbox a:hover, #lightbox a:visited {
+	cursor: -webkit-zoom-out;
+	cursor: -moz-zoom-out;
+}*/
+
+p {	font-family: Century Schoolbook, Georgia; 
+	font-size: 3em;
+}
+
+

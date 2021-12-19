@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html
+xmlns="http://www.w3.org/1999/xhtml"
+xml:lang="en-US"
+lang="en-US">
+
+<head profile="http://www.w3.org/2005/10/profile">
+<link rel="icon" type="image/png" href=" ">
+<title>Fresh Pond</title>
+
+<link rel="stylesheet" type="text/css" href="essay-style.css" />
+<link rel="stylesheet" href="screen.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="lightbox.css" type="text/css" media="screen" />
+	
+<meta content="text/xhtml;charset=UTF-8" http-equiv="Content-Type" />
+<meta name="Author" content="Anne Callahan" />
+<meta name="Description" content="Sensing Place essay" />
+<meta name="Keywords" content="graphic, publishing, books, illustration, ephemera, art" />
+</head>
+
+<body id="body">
+<div id="wrapper">
+<div class="set">
+		
+		
+		<div class="page">
+			<a href="circle.jpg" rel="lightbox">
+				<img src="circle.jpg" onload="this.width/=8;this.onload=null;" />
+			</a>
+		</div>
+		
+		<div class="page">
+				<img src="title.jpg" onload="this.width/=5;this.onload=null;"/>
+		</div>
+		
+		<div class="page">
+			<a href="fitchburg.jpg" rel="lightbox">
+				<img src="fitchburg.jpg"  onload="this.width/=8;this.onload=null;"/>
+			</a>
+		</div>
+		
+		<div class="page">
+			<a href="arrow.jpg" rel="lightbox">
+				<img src="arrow.jpg" onload="this.width/=8;this.onload=null;"/>
+			</a>
+		</div>
+
+		<div class="page">
+			<a href="flashing.jpg" rel="lightbox">
+				<img src="flashing.jpg" onload="this.width/=8;this.onload=null;"/>
+			</a>
+		</div>
+
+
+		<div class="page">
+			<a href="long-view.jpg" rel="lightbox">
+				<img src="long-view.jpg" onload="this.width/=8;this.onload=null;"/>
+			</a>
+		</div>
+		
+		<div class="page">
+			<a href="tracks-birch.jpg" rel="lightbox">
+				<img src="tracks-birch.jpg" onload="this.width/=8;this.onload=null;"/>
+			</a>
+		</div>
+		
+		<div class="page">
+			<img src="yield.jpg"  onload="this.width/=8	;this.onload=null;"/>
+		</div>
+		
+		<div class="page">
+			<a href="cormorants.jpg" rel="lightbox">
+				<img src="cormorants.jpg"  onload="this.width/=8;this.onload=null;"/>
+			</a>
+	
+			<a href="transmission.jpg" rel="lightbox">
+				<img src="transmission.jpg"  onload="this.width/=8;this.onload=null;"/>
+			</a>
+		</div>
+		
+		<div class="page">
+			<a href="no-spas.jpg" rel="lightbox">
+				<img src="no-spas.jpg" onload="this.width/=8;this.onload=null;"/>
+			</a>
+		</div>
+	
+		<div class="page">
+			<a href="building.jpg" rel="lightbox">
+				<img src="building.jpg"  onload="this.width/=8	;this.onload=null;"/>
+			</a>
+		</div>
+		
+		
+		<div class="page">
+			<a href="light.jpg" rel="lightbox">
+				<img src="light.jpg" onload="this.width/=8;this.onload=null;"/>
+			</a>
+		</div>
+		
+		<div class="page">
+				<img src="walker.jpg"  onload="this.width/=15;this.onload=null;"/>
+			</a>
+		</div>
+		
+		<div class="page">
+			<a href="truck-at-entrance.jpg" rel="lightbox">
+				<img src="truck-at-entrance.jpg"  onload="this.width/=8;this.onload=null;"/>
+			</a>
+		</div>
+		
+		<div class="page">
+				<img src="prime-retail-text.jpg"  onload="this.width/=6;this.onload=null;"/>
+		</div>
+		
+		
+		<div class="page">
+			<a href="sash-cord-repair.jpg" rel="lightbox">
+				<img src="sash-cord-repair.jpg"  onload="this.width/=8;this.onload=null;"/>
+			</a>
+		</div>
+		
+		<div class="page">
+			<a href="fresh-pond-apts.jpg" rel="lightbox">
+				<img src="fresh-pond-apts.jpg"  onload="this.width/=8;this.onload=null;"/>
+			</a>
+		</div>
+		
+		<div class="page" style="width:250px;text-align:center;">
+			<p>Fresh Pond, Cambridge, Mass.: reservoir, park, residential towers, shopping center. Photographed by Anne Callahan for Sensing Place, taught by Anne Whiston Spirn at MIT, fall 2012.</p>
+		</div>
+		
+		
+		
+		<div class="page">
+			<a href="artist.jpg" rel="lightbox">
+				<img src="artist.jpg"  onload="this.width/=8;this.onload=null;"/>
+			</a>
+		</div>
+</div>
+</div>
+
+
+		<!--<div class="page">
+			<a href="pink-tape.jpg" rel="lightbox">
+				<img src="pink-tape.jpg" onload="this.width/=8;this.onload=null;"/>
+			</a>
+		</div>-->
+	
+		
+
+
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/jquery-ui-1.8.18.custom.min.js"></script>
+<script src="js/jquery.smooth-scroll.min.js"></script>
+<script src="js/lightbox.js"></script>
+
+<script>
+  jQuery(document).ready(function($) {
+      $('a').smoothScroll({
+        speed: 1000,
+        easing: 'easeInOutCubic'
+      });
+
+      $('.showOlderChanges').on('click', function(e){
+        $('.changelog .old').slideDown('slow');
+        $(this).fadeOut();
+        e.preventDefault();
+      })
+  });
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2196019-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	
+</body>
+</html>
